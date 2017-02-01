@@ -1,0 +1,64 @@
+/* text and colors for body*/
+body {
+  background-color: #EEEEEE;
+  color: rgb(30, 30, 30)
+  font-family: Open-sans, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.8em;
+}
+
+/* text and colors for header*/
+h1, h2, h3 {
+font-family: Montserrat, sans-serif;
+}
+
+h1 {
+color: #5C80BC ;
+}
+
+h2, h3 {
+  color: #9ae2f4;
+}
+
+a {
+  color: #DDBEA8 ;
+  text-decoration: none;
+}
+
+.container {
+  width: 200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  text-align: center;
+  width:75%;
+}
+
+.grey-card {
+background: #437C90;                          /* White background */
+padding: 20px;                              /* Internal space */
+border-radius: 4px;                         /* Small radius */
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.summary {
+background: #FFFFFF;                          /* White background */
+padding: 20px;                              /* Internal space */
+border-radius: 4px;                         /* Small radius */
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.circle-profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius:125px;
+  border: 1px solid #c1b2b2;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 18px;
+}
